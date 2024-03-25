@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply for job</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center h-screen">
+    <div
+      class="h-[850px] w-[600px] bg-gray-100 mt-10 rounded-lg"
+      style="border: 1px solid black"
+    >
+      <div class="text-right text-[#f49315] mr-2 text-3xl cursor-pointer">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <h2 class="text-center font-bold">Apply for Position</h2>
+
+      <div class="flex flex-col gap-5 pt-5">
+        <input
+          type="text"
+          placeholder="Full Name*"
+          class="bg-white mx-5 p-2 rounded-lg"
+        />
+        <input
+          type="text"
+          placeholder="Email*"
+          class="bg-white mx-5 p-2 rounded-lg"
+        />
+        <input
+          type="text"
+          placeholder="Mobile Number*"
+          class="bg-white mx-5 p-2 rounded-lg"
+        />
+        <input
+          type="text"
+          placeholder="Country of Residence*"
+          class="bg-white mx-5 p-2 rounded-lg"
+        />
+        <textarea
+          placeholder="Message /Cover Letter to Employer"
+          class="bg-white mx-5 h-[250px] rounded-lg placeholder-top p-2"
+        ></textarea>
+      </div>
+      <div class="flex flex-row mt-8">
+        <div
+          class="bg-white h-[120px] w-[560px] ml-5 rounded-lg flex flex-row justify-between"
+        >
+          <div>
+            <h3 class="text-base text-[#747a7a] pt-10 px-2">Resume/CV *</h3>
+            <p class="text-[10px] text-[#747a7a] ml-2">
+              Upload your CV or any other relevant file. <br />Max file size
+              10MB
+            </p>
+          </div>
+          <div
+            class="bg-gray-100 h-[100px] w-[140px] flex items-center justify-center mt-3 mr-6 rounded-lg text-[50px] text-[#c4c5c5] cursor-pointer"
+          >
+            <i class="fa-solid fa-paperclip"></i>
+          </div>
+        </div>
+      </div>
+      <label class="ml-5 mt-4 flex items-center">
+        <input type="checkbox" class="mr-2 text-[5px] cursor-pointer" />
+        <span class="text-[12px] mt-2"
+          >I am happy to be contacted by Gokyo Consulting on the latest
+          positions and updates via<br />email or SMS in accordance with Gokyo's
+          <span class="text-[#f48c06] underline cursor-pointer"
+            >privacy policy.</span
+          ></span
+        >
+      </label>
+      <button
+        class="bg-orange-400 rounded-lg p-2 text-white font-bold w-[560px] mx-5 mt-3"
+      >
+        Send Application
+      </button>
+    </div>
+  </body>
+</html>
